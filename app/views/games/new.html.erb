@@ -1,0 +1,15 @@
+<h1>Random letters</h1>
+
+<%=@letters%>
+
+<form action="/score" method='get'>
+  <input type="text" name="words">
+  <input type="submit" value="New!">
+  <%= hidden_field_tag :grid, @grid %>
+</form>
+
+
+
+
+
+
